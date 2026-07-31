@@ -64,7 +64,7 @@ const PROJECTS = [
     subtitle: "CLI DART — ARCHITECTURE PROPRE & AUTOMATISATION",
     description: "Outil en ligne de commande (CLI) développé en Dart pour automatiser la création de projets. Il génère instantanément la structure des dossiers selon les principes de la Clean Architecture et de SOLID.",
     tech: ["Dart", "SQLite"], 
-    link: "https://github.com/Rahkoja09/cleanSolidCLI" 
+    link: "https://github.com/Rahkoja09/cleanSolidCLI/tree/main/clean_solid_cli_mobile" 
   },
 ];
 
