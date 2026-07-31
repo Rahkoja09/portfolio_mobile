@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Durand — Flutter Developer",
+  title: "Koja Nekena — Flutter Developer",
   description: "Portfolio de développeur mobile Flutter. Applications iOS & Android sur mesure.",
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/home/darkone/portfolio_mobile/public/logo.svg",
   },
 };
 
