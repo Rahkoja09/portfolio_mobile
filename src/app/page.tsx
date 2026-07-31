@@ -33,24 +33,41 @@ const SKILL_GROUPS = [
     { name: "GraphQL", level: 82 }, { name: "WebSocket", level: 85 },
   ]},
   { category: "Outils & DevOps", icon: Wrench, items: [
-    { name: "Git / CI-CD", level: 90 }, { name: "Docker", level: 80 }, { name: "Figma", level: 87 },
+    { name: "Clean Architecture", level: 90 },{ name: "Git / CI-CD", level: 90 }, { name: "Docker", level: 80 }, { name: "Figma", level: 87 },
   ]},
 ];
 
 const PROJECTS = [
-  { title: "MadaTrade", subtitle: "APP E-COMMERCE — MARKETPLACE LOCAL",
-    description: "Marketplace de produits locaux malgaches avec paiement mobile intégré, géolocalisation des vendeurs, et système de notation. Architecture Riverpod + Clean Architecture, Firebase Auth, Stripe, notifications push temps réel.",
-    tech: ["Flutter", "Riverpod", "Firebase", "Stripe", "Maps", "Push Notif"], link: "https://github.com/Rahkoja09" },
-  { title: "HealthConnect", subtitle: "APP SANTÉ — TÉLÉMÉDECINE",
-    description: "Application de télémédecine avec consultations vidéo, prise de RDV, suivi de traitements et dossiers patients sécurisés. Intégration WebRTC, Supabase backend, notifications intelligentes.",
-    tech: ["Flutter", "GetX", "Supabase", "WebRTC", "Local Auth"], link: "https://github.com/Rahkoja09" },
-  { title: "TaskFlow", subtitle: "APP PRODUCTIVITÉ — GESTION DE PROJETS",
-    description: "Outil de gestion de projets collaboratif avec tableaux Kanban, diagrammes de Gantt, chat en temps réel via WebSocket. Synchronisation offline-first avec SQLite.",
-    tech: ["Flutter", "Riverpod", "WebSocket", "SQLite", "GraphQL"], link: "https://github.com/Rahkoja09" },
-  { title: "GeoTracker", subtitle: "APP UTILITAIRE — TRACKING GPS",
-    description: "Application de tracking GPS en temps réel avec traçage de parcours, zones de géorepérage, historique détaillé et export de données. Optimisé pour la batterie.",
-    tech: ["Flutter", "Dart", "Firebase", "SQLite", "Background Service"], link: "https://github.com/Rahkoja09" },
+  { 
+    title: "eTantana", 
+    subtitle: "APP E-COMMERCE — MARKETPLACE MALGACHE",
+    description: "Plateforme e-commerce complète dédiée aux produits locaux de Madagascar. Intègre la gestion des ventes, l'administration des boutiques, la géolocalisation des vendeurs, les notations et le paiement mobile local en temps réel.",
+    tech: ["Flutter", "Riverpod", "Supabase", "Maps", "Push Notif"], 
+    link: "https://github.com/Rahkoja09/etantana" 
+  },
+  { 
+    title: "fonenako", 
+    subtitle: "APP IMMOBILIÈRE — RECHERCHE & LOGEMENT",
+    description: "Application mobile de recherche immobilière à Madagascar pour louer ou acheter des biens. Permet de parcourir les annonces, de filtrer par critères et de contacter directement les propriétaires ou agents.",
+    tech: ["Flutter", "GetX", "Firebase", "Local Auth"], 
+    link: "https://github.com/Rahkoja09/fonenako" 
+  },
+  { 
+    title: "UI3DFlutter", 
+    subtitle: "APP DESIGN — INTÉGRATION 3D DANS FLUTTER",
+    description: "Projet d'exploration technique axé sur l'intégration de modèles, d'animations et d'éléments graphiques en 3D interactive directement au sein d'une interface utilisateur fluide en Flutter.",
+    tech: ["Flutter", "Provider", "3DKit"], 
+    link: "https://github.com/Rahkoja09/ui3d_flutter" 
+  },
+  { 
+    title: "CleanSolidCLI", 
+    subtitle: "CLI DART — ARCHITECTURE PROPRE & AUTOMATISATION",
+    description: "Outil en ligne de commande (CLI) développé en Dart pour automatiser la création de projets. Il génère instantanément la structure des dossiers selon les principes de la Clean Architecture et de SOLID.",
+    tech: ["Dart", "SQLite"], 
+    link: "https://github.com/Rahkoja09/cleanSolidCLI" 
+  },
 ];
+
 
 const EXPERIENCE = [
   { period: "2023 — Présent", role: "Développeur Flutter", company: "Freelance", location: "Antananarivo, MG",
