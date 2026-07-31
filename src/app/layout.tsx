@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Koja Nekena — Flutter Developer",
   description: "Portfolio de développeur mobile Flutter. Applications iOS & Android sur mesure.",
   icons: {
-    icon: "/home/darkone/portfolio_mobile/public/logo.svg",
+    icon: "portfolio_mobile/public/logo.svg",
   },
 };
 
